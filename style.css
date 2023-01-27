@@ -9,17 +9,19 @@
 	background-repeat: no-repeat;
 	height: 100vh;
 	background-size: cover;
+	position: fixed;
+}
+.sredina {
 	text-shadow: 2px 2px 2px #ce5937;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	position: fixed;
+	height: 100vh;
 }
 .ticket {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	color: white;
 }
